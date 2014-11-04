@@ -34,6 +34,7 @@ HAYSTACK_CONNECTIONS = {
     "INDEX_NAME": "crate-dev",
   },
 }
+HAYSTACK_SIGNAL_PROCESSOR = 'celery_haystack.signals.CelerySignalProcessor'
 
 TIME_ZONE = "UTC"
 LANGUAGE_CODE = "en-us"
